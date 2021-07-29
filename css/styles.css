@@ -1,0 +1,127 @@
+/*********************Style Sheet*********************/
+/*********************Tag Style*********************/
+body {
+  background-color: #0A1931;
+  font-family: sans-serif;
+  color: #FFC947;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+hr {
+  background-color: #0A1931;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #FFC947;
+  border-width: 7px;
+  width: 7%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+img {
+  display: inline-block;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+/*********************Class Style*********************/
+.asset_1 {
+
+  width: 150px;
+ float: right;
+ margin-right: 30px;
+}
+
+.asset_2 {
+  width: 150px;
+  float: left;
+  margin-left: 30px;
+}
+.BUTTON_BZA {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #0A1931;
+   font-family: Helvetica;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 5px;
+   background-color: #FFC947;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_BZA:hover {
+   background: #EFEFEF;
+   border: solid #EFEFEF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.center_asset {
+  margin-top: 30px;
+  width: 540px;
+}
+.coding_image{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.top-container {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.logs_top {
+  border-radius: 20px;
+  color: #FFC947;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.middle-container {
+  color:#FFC947;
+  text-align: center;
+}
+
+.bottom-container {
+  color:#FFC947;
+  text-align: center;
+  margin-top:  50px;
+}
+
+.Main_Top {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+.ml_image{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.naming {
+  font-family: 'Zen Tokyo Zoo', sans-serif;
+  font-size: 2.6em;
+}
+.profile{
+  line-height: 2;
+  width: 50%;
+  margin: 50px auto 100px auto;
+}
+.skill-row{
+  line-height: 2;
+  width: 50%;
+  margin: 75px auto 100px auto;
+  text-align: left;
+}
